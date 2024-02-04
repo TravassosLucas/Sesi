@@ -1,0 +1,22 @@
+body{
+    width: 97.6;
+    overflow-x: hidden;
+    padding: 10px;
+    padding-right: 10px;
+}
+.cabeçalho{
+    box-shadow: rgba(187, 0, 0, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    padding: 10px;
+    text-align: center;
+}
+
+.font-style{
+    font-size: 150px;
+    font-family: 'Poor Story', system-ui;
+}
+
+
+.font-style02{
+    font-size: 50px;
+    font-family: 'Poor Story', system-ui;
+}
