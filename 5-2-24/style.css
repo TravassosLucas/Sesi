@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    width: 97.6;
+    overflow-x: hidden;
+    padding: 10px;
+    padding-right: 10px;
+}
+.cabeçalho{
+    box-shadow: rgba(187, 0, 0, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    padding: 10px;
+    text-align: center;
+}
+
+.font-style{
+    font-size: 150px;
+    font-family: 'Poor Story', system-ui;
+    border-bottom: 20px dash solid rgb(0, 0, 0);
+    padding-bottom: 20px;
+}
+
+
+.font-style02{
+    font-size: 50px;
+    font-family: 'Poor Story', system-ui;
+}
+
+
+.div-calculos{
+ background-color: lightgrey;
+ padding: 20px;
+ display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+
+
+.filhas{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 400px;
+    width: 200px;
+}
+
+.wrapNumInput{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.btn{
+    border-radius: 10px;
+    background-color: dodgerblue;
+    border: none;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    opacity: 0.8;
+    font-weight: 900;
+    color: white;
+}
+.btn:hover{
+    opacity: 1;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: white;
+    font-weight: 900;
+}
