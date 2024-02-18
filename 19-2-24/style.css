@@ -1,0 +1,360 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu {
+    background-color: #333;
+    text-align: center;
+    padding: 20px 0;
+    width: 3000px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 120px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #f0f0f0;
+}
+
+.menu a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #f0f0f0;
+    transition: width 0.3s ease;
+}
+
+.menu a:hover::after {
+    width: 100%;
+}
+
+
+a{
+    text-decoration: none;
+    transition: all 200ms linear;
+    opacity: 0.7;
+}
+
+a:hover{
+    text-decoration: underline;
+    transition: all 200ms linear;
+    opacity: 1;
+}
+
+
+.perfil01{
+    width: 100%;
+    height: 400px;
+    background: white;
+    margin-top: 30px;
+}
+
+.perfil02{
+    width: 100%;
+    height: 400px;
+    background: white;
+    margin-top: 30px;
+}
+
+.tecDiv{
+    width: 100%;
+    height: 400px;
+    background: white;
+}
+
+
+.contactDiv {
+    width: 100%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 40px;
+}
+
+.leftContact{
+    width: 350px;
+    min-width: 300px;
+    height: 500px;
+    background: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.rightContact{
+
+    width: 350px;
+    min-width: 300px;
+    height: 500px;
+    background: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+
+}
+
+.contato {
+    font-family: 'Single Day', cursive;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.nomemsg input{
+    width: 300px;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.nomemsg textarea{
+    width: 300px;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+
+.botao {
+    border: none;
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+    background-color: #555;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.perfil01{
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.perfil02{
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.rel{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.descCaio{
+    width: 40%;
+}
+
+.leftDiv{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img01{
+    position: absolute;
+    transition: all 400ms linear;
+    width: 100%;
+}
+
+.img01:hover{
+    cursor: crosshair;
+    transform: scale(1.5);
+    transition: all 400ms linear;
+
+}
+
+
+
+.githubcontato{
+    padding-top: 50px;
+    padding-bottom:50px;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.btngit-container {
+    display: flex;
+    justify-content: center; 
+}
+
+.btngit {
+    border-radius: 10px;
+    background-color: black;
+    border: none;
+    margin-top: 200px;
+    padding: 10px;
+    opacity: 0.8;
+    font-weight: 900;
+    color: white;
+   
+}
+
+.btngit:not(:last-child) {
+    margin-right: 340px; 
+}
+
+.btngit:hover {
+    opacity: 1;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: white;
+    font-weight: 900;
+}
+
+
+
+.tecno01{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 450px;
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    
+}
+
+.tecnos{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   
+}
+
+.imgc{
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin-left: 50px; 
+    gap: 25x;
+    transition: all 200ms linear;
+    transform: scale(1.2);
+}
+
+.textotecno{
+    text-align: center;
+}
+
+.tecno{
+    padding-top: 50px;
+    width: 100%;
+    height: 750px;
+    background-color:white;
+}
+
+.img01{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    transition: all 200ms linear;
+}
+
+.img01:hover{
+    transform: scale(1.2);
+    transition: all 400ms linear;
+}
+
+
+
+
+.contactDiv:not(:last-child) {
+    margin-right: 50px; 
+}

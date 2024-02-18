@@ -83,6 +83,7 @@ a:hover{
     align-items: center;
     justify-content: center;
     gap: 20px;
+    
 }
 
 .githubcontato{
@@ -194,7 +195,12 @@ text{
     text-align: center;
 }
 
-.btn{
+.btngit-container {
+    display: flex;
+    justify-content: center; 
+}
+
+.btngit {
     border-radius: 10px;
     background-color: dodgerblue;
     border: none;
@@ -203,16 +209,19 @@ text{
     opacity: 0.8;
     font-weight: 900;
     color: white;
-    transform: translate(-50%, -50%);
-    flex-direction: column;
-    gap: 500px;
+   
 }
 
-.btn:hover{
+.btngit:not(:last-child) {
+    margin-right: 500px; 
+}
+
+.btngit:hover {
     opacity: 1;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     color: white;
     font-weight: 900;
 }
+
 

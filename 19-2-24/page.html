@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+
+<body>
+    <div class="menu">
+        <ul>
+            <li><a href="#perfil01">Primeiro perfil</a></li>
+            <li><a href="#perfil02">Segundo perfil</a></li>
+            <li><a href="#tecnologia">Conhecimentos</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </div>
+    <div class="perfil01" id="perfil01">
+
+
+        <div class="descCaio">
+            <h1>Caio Eduardo</h1>
+            <p>Meu nome completo é Caio Eduardo Mariano Xavier da Rocha,sou antigo estudante da Tecpuc,
+                mas agora sou estudante do Sesi. Faço sites e progamas usando HTML, CSS E JavaScript,
+                entre em cotato para mais informações.</p>
+        </div>
+
+        <div class="leftDiv">
+
+            <div class="rel">
+                <img class="img01" src="eu.jpg" alt="Caio">
+            </div>
+        </div>
+    </div>
+    <div class="perfil02" id="perfil02">
+
+
+        <div class="descCaio">
+            <h1>Lucas Travassos da Cruz</h1>
+            <p> Meu nome é Lucas Travassos da Cruz, era estudante da Tecpuc, mas atualmente sou estudante do Sesi.
+                Tenho experiência com Arduino, HTML e CSS.</p>
+        </div>
+
+        <div class="leftDiv">
+
+            <div class="rel">
+                <img class="img01" src="lucas.jpg" alt="Caio">
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <div class="tecno" id="tecnologia">
+        <h1 class="textotecno">Nossos Conhecimentos: </h1>
+
+
+
+
+        <div class="tecnos" id="tecnologias">
+
+            <div class="tecno01">
+                <img src="img/html.png" alt="" class="imgc">
+                <h2 class="text">HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web.
+                </h2>
+            </div>
+
+            <div class="tecno01">
+                <img src="img/css.png" alt="" class="imgc">
+                <h2 class="text"> CSS (Folha de Estilo em Cascata) é o código que você usa para dar estilo à sua página
+                    Web. </h2>
+            </div>
+
+            <div class="tecno01">
+                <img src="img/javascript.png" alt="" class="imgc">
+                <h2 class="text"> JavaScript é uma linguagem de programação estruturada, de script em alto nível com
+                    tipagem multiparadigma. </h2>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="contactDiv" id="contact">
+        <div class="leftContact">
+            <div class="contato">
+                <h2>Contato</h2>
+                <p class="aquivc">Aqui você pode mandar uma mensagem</p>
+            </div>
+            <div class="nomemsg">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome">
+            </div>
+            <div class="nomemsg">
+                <label for="mensagem">mensagem:</label>
+                <textarea type="text" id="mensagem"></textarea>
+            </div>
+            <button onclick="conserirMensagemWhatsApp()" class="botao">Conferir dados</button>
+        </div>
+        <div class="rightContact">
+            <div class="nomemsg2">
+                <p class="nomezap">Nome: <span id="confnome"></span></p>
+                <p class="msgzap">Mensagem: <span id="confnMsg"></span></p>
+            </div>
+            <button onclick="enviar()" class="botao">WhatsApp</button>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="githubcontato">
+
+        <div class="button">
+            <a class="btngit" id="01" href="https://github.com/TravassosLucas" target="_blank">GitHub Lucas</a>
+            <a class="btngit" id="02" href="https://github.com/Caioxrm13" target="_blank">Github Caio </a>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
