@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+*{
+ margin: 0;
+ padding: 0;
+
+}
+
+
+.wrap-everything{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-image: url("../img/R.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: auto;
+    overflow: hidden;
+    transition: all 500ms linear;
+    
+}
+
+
+.wrap-img{
+    margin-bottom: 4vh;
+    opacity: 1;
+    animation: fromTop 2s linear;
+
+}
+
+@keyframes fromTop {
+    0%{
+        transform: translateY(-200px);  
+        opacity: 0.1;      
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 0.8;
+    }
+}
+
+.img-style{
+    width: 300px;
+    height: auto; 
+    box-shadow:  rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+} 
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: auto;
+    width: 200px;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+.wrap-p{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    height: auto;
+    width: auto;
+    align-items: center;
+    color: black;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    filter: drop-shadow(1px);
+    transition: all 200ms linear;
+    animation: show 2s linear;
+}
+
+@keyframes show{
+    0%{
+        opacity: 0.1;
+    }
+    100%{
+        opacity: 0.8;
+    }
+}
