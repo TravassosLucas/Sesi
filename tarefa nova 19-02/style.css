@@ -1,0 +1,14 @@
+*{
+ margin: 0;
+ padding: 0;
+
+}
+
+.wrap-everything{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4vh;
+    height: 100%;
+}
