@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+    overflow-x: hidden;
+    padding: 2vh;
+    background-color: yellow;
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} 
+
+.wrap-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+}
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+h1,h2{
+ padding: 10px;
+ border-radius: 10px;
+ background-color: white;
+ color: black;
+ font-weight: 900;
+ letter-spacing: 2px;
+ text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.03);
+}
+
+@media(width >= 1024px){
+    
+    body{
+        background-color: yellow;
+    }
+    
+    
+    .wrap-cards{
+    flex-direction: row;
+    gap: 2vw;}
+
+}
